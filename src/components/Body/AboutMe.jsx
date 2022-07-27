@@ -1,4 +1,4 @@
-import { useEffect,useRef } from "react"
+import { useEffect,useRef } from "react";
 
 const AboutMe = () => {
     const img = useRef();
@@ -28,8 +28,9 @@ const AboutMe = () => {
                 <h4>About Me<i class="bi bi-caret-right-fill"></i></h4>
                 <p className='fs-4 my-3 fd'>Frontend Developer</p>
                 <hr />
-                <h3>Hai, I'm <span className="fd">Ramdan Nugraha</span></h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam maiores, nesciunt vero, unde rerum dolorum doloribus porro obcaecati tenetur repellat corporis optio explicabo? Ducimus qui debitis facilis impedit blanditiis ab?Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum corrupti, sit quia magni vel, consequatur minima, veritatis provident sequi mollitia aperiam doloribus. Atque officia necessitatibus mollitia officiis repellat blanditiis eius?</p>
+                <h3>Hi<span className="finger">🖐️</span>, I'm <span className="fd">Ramdan Nugraha</span></h3>
+                <p className="mt-3">I'm a web developer from Bandung, ID. Currently still majoring in college informatics Engineering. In my spare time i enjoy playing music, gaming and building my own projects. My preferred tools are Javascript, React Js , PHP and Laravel.</p>
+                <br /><br /><br /><br /><br />
                 <div className="direction-scroll">
                     <a href="#my-skills">
                         <i className="bi bi-arrow-down"></i>
