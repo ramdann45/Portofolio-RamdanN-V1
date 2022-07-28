@@ -84,12 +84,12 @@ html {
 }
 
 .header-web nav {
+  position: fixed;
   width: 100%;
   height: 45px;
   background-color: rgba(0, 0, 0, .6);
   box-sizing: border-box;
   z-index: 9;
-  position: fixed;
   top: 0;
 }
 
@@ -126,7 +126,7 @@ html {
 /* SIDEBAR STYLE */
 
 .show-close {
-  margin-left: -1200px;
+  margin-left: -1500px;
 }
 
 .side-bar-rn {

@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 const Header = (props) => {
   return (
-    <div className='header-web' data-aos="fade-down">
+    <div className='header-web'>
         <Navbar fn={props.fn} val={props.val} />
         <Core />
     </div>

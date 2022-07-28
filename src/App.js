@@ -16,10 +16,6 @@ function App() {
   }
 
   useEffect(() => {
-    console.log("okok");
-  },[theme])
-
-  useEffect(() => {
     Aos.init({ duration: 1000 })
   },[])
 

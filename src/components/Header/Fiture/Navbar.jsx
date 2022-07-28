@@ -1,6 +1,7 @@
 import Sidebar from "./Sidebar";
 import NavSidebar from "./NavSidebar";
 import { useRef, useEffect } from "react";
+import { motion } from "framer-motion";
 
 const Navbar = (props) => {
   const sideBar = useRef();
